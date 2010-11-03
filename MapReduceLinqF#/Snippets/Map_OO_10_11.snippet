@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Demo Imperative Map</Title>
+      <Shortcut>demo_map_oo_10_11</Shortcut>
+    </Header>
+    <Snippet>	
+      <Code Language="CSharp">
+	  <![CDATA[        // OO Approach, .NET 1.0/1.1
+        public static string[] GetHosts_OO_10_11(string[] urls)
+        {
+            ArrayList newUrls = new ArrayList();
+            foreach (string url in urls)
+            {
+                newUrls.Add(new Uri(url).Host);
+            }
+            return (string[])newUrls.ToArray(typeof(string));
+        }
+		]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

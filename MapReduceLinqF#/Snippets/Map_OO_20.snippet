@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Demo Imperative Map</Title>
+      <Shortcut>demo_map_oo_20</Shortcut>
+    </Header>
+    <Snippet>	
+      <Code Language="CSharp">
+	  <![CDATA[                // OO Approach, .NET 2.0+
+        public static IEnumerable<string> GetHosts_OO_20(IEnumerable<string> urls)
+        {
+            foreach (string url in urls)
+            {
+                yield return new Uri(url).Host;
+            }
+        }
+		]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

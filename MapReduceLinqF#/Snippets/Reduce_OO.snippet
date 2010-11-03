@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Demo OO Reduce</Title>
+      <Shortcut>demo_reduce_oo</Shortcut>
+    </Header>
+    <Snippet>	
+      <Code Language="CSharp">
+	  <![CDATA[        // OO Approach, .NET
+        public static string GetHostsCSV_OO(IEnumerable<string> domains)
+        {
+            StringBuilder data = new StringBuilder();
+            foreach (string domain in domains)
+            {
+                if (data.Length > 0) data.Append(",");
+                data.Append(string.Format("\"{0}\"", domain));
+            }
+            return data.ToString();
+        }
+		]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

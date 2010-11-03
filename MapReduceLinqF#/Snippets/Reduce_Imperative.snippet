@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Demo Imperative Reduce</Title>
+      <Shortcut>demo_reduce_imperative</Shortcut>
+    </Header>
+    <Snippet>	
+      <Code Language="CSharp">
+	  <![CDATA[                        // NOTE: I'm purposly not using the string join function
+        //       so pretend it doesn't exist... :)
+
+        // Imperative
+        public static string GetHostsCSV_Imperative(string[] domains)
+        {
+            string data = "";
+            for (int index = 0; index < domains.Length; index++)
+            {
+                if (index > 0) data = data + ",";
+                data = data + "\"" + domains[index] + "\"";
+            }
+            return data;
+        }
+		]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

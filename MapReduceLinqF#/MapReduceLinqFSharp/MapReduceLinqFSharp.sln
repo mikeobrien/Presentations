@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSample", "CSharpSample\CSharpSample.csproj", "{52DB1F89-00E6-4E3A-9E80-DB82AA62E4BA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpSample", "FSharpSample\FSharpSample.fsproj", "{66C0B531-9698-4FDB-AB95-07992EAF0942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DB1F89-00E6-4E3A-9E80-DB82AA62E4BA}.Debug|x86.ActiveCfg = Debug|x86
+		{52DB1F89-00E6-4E3A-9E80-DB82AA62E4BA}.Debug|x86.Build.0 = Debug|x86
+		{52DB1F89-00E6-4E3A-9E80-DB82AA62E4BA}.Release|x86.ActiveCfg = Release|x86
+		{52DB1F89-00E6-4E3A-9E80-DB82AA62E4BA}.Release|x86.Build.0 = Release|x86
+		{66C0B531-9698-4FDB-AB95-07992EAF0942}.Debug|x86.ActiveCfg = Debug|x86
+		{66C0B531-9698-4FDB-AB95-07992EAF0942}.Debug|x86.Build.0 = Debug|x86
+		{66C0B531-9698-4FDB-AB95-07992EAF0942}.Release|x86.ActiveCfg = Release|x86
+		{66C0B531-9698-4FDB-AB95-07992EAF0942}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{5C5578E9-6B8A-4496-93CE-EB704C71BC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicApproach", "ClassicApproach\ClassicApproach.csproj", "{037A3D7D-839D-4740-B8DF-D459BF1C7A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCApproach", "IoCApproach\IoCApproach.csproj", "{9AE5701D-A016-4E52-9DCE-3A44AE7D6055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD", "DDD", "{1BE2C9E8-D89A-499C-AAB4-7F9D785E6D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDApplication", "DDDApplication\DDDApplication.csproj", "{773284C5-581D-4BD5-A6B4-B74200327F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037A3D7D-839D-4740-B8DF-D459BF1C7A26}.Debug|x86.ActiveCfg = Debug|x86
+		{037A3D7D-839D-4740-B8DF-D459BF1C7A26}.Debug|x86.Build.0 = Debug|x86
+		{037A3D7D-839D-4740-B8DF-D459BF1C7A26}.Release|x86.ActiveCfg = Release|x86
+		{037A3D7D-839D-4740-B8DF-D459BF1C7A26}.Release|x86.Build.0 = Release|x86
+		{9AE5701D-A016-4E52-9DCE-3A44AE7D6055}.Debug|x86.ActiveCfg = Debug|x86
+		{9AE5701D-A016-4E52-9DCE-3A44AE7D6055}.Debug|x86.Build.0 = Debug|x86
+		{9AE5701D-A016-4E52-9DCE-3A44AE7D6055}.Release|x86.ActiveCfg = Release|x86
+		{9AE5701D-A016-4E52-9DCE-3A44AE7D6055}.Release|x86.Build.0 = Release|x86
+		{773284C5-581D-4BD5-A6B4-B74200327F19}.Debug|x86.ActiveCfg = Debug|x86
+		{773284C5-581D-4BD5-A6B4-B74200327F19}.Debug|x86.Build.0 = Debug|x86
+		{773284C5-581D-4BD5-A6B4-B74200327F19}.Release|x86.ActiveCfg = Release|x86
+		{773284C5-581D-4BD5-A6B4-B74200327F19}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{037A3D7D-839D-4740-B8DF-D459BF1C7A26} = {5C5578E9-6B8A-4496-93CE-EB704C71BC5D}
+		{9AE5701D-A016-4E52-9DCE-3A44AE7D6055} = {5C5578E9-6B8A-4496-93CE-EB704C71BC5D}
+		{773284C5-581D-4BD5-A6B4-B74200327F19} = {1BE2C9E8-D89A-499C-AAB4-7F9D785E6D97}
+	EndGlobalSection
+EndGlobal

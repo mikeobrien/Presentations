@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Demo Main</Title>
+      <Shortcut>demo_main_map</Shortcut>
+    </Header>
+    <Snippet>	
+      <Code Language="CSharp">
+	  <![CDATA[                            Console.WriteLine("------------------------------------- MAP --------------------------------------");
+            Map.GetHosts_Imperative(Urls).ToList().ForEach(url => Console.WriteLine("{0} -> {1}", Urls.First(u => u.Contains(url)), url));
+            Console.WriteLine();
+		]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
