@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Closures.cs" />
+    <Compile Include="PartialApplication.cs" />
+    <Compile Include="Currying.cs" />
     <Compile Include="FirstClassAndHigherOrderFunctions.cs" />
     <Compile Include="Immutability.cs" />
     <Compile Include="Lambdas.cs" />
