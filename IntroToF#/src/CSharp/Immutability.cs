@@ -16,22 +16,19 @@
         // This type is immutable
         public class Credentials
         {
-            private readonly string _username;
-            private readonly string _password;
+            public readonly string Username;
+            public readonly string Password;
 
             public Credentials(string username, string password)
             {
-                _username = username;
-                _password = password;
+                Username = username;
+                Password = password;
             }
 
             public Credentials ChangeUsername(string username)
             {
-                return new Credentials(username, _password);
+                return new Credentials(username, Password);
             }
-
-            public string Username { get { return _username; } }
-            public string Password { get { return _password; } }
         }
     }
 }

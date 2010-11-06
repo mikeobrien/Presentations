@@ -7,19 +7,17 @@
     let getFormattedWebPage url formatter = 
         let webClient = new WebClient()
         let html = webClient.DownloadString(url : string)
-        formatter html
+        (url, formatter html)
 
     let url = "http://www.google.com"
 
     let googleHomePageHtml = getFormattedWebPage url (fun x -> x.ToUpper())
 
-    type WebPage = { Url : string; Html : string }
 
-    let googleHomePage = { Url = url; Html = googleHomePageHtml }
 
     // Automatic Generalization
 
-    let greaterThan x y = x > y
+    let greaterThan a b = a > b
     // val greaterThan: 'a -> 'a -> bool 
 
     let add x y = x + y

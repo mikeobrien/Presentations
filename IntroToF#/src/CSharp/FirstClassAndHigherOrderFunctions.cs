@@ -13,7 +13,6 @@ namespace CSharp
             return formatter(html);
         }
 
-        // Also first class
         string TrimFormatter(string text)
         {
             return text.Trim();
@@ -23,7 +22,6 @@ namespace CSharp
         {
             var url = "http://www.googl.com";
 
-            // First class function
             Func<string, string> lowerCaseFormatter = x => x.ToLower();
 
             var googleLowerCaseHomePage = GetFormatedWebPage(url, lowerCaseFormatter);
