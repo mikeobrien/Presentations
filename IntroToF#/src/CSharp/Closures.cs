@@ -10,7 +10,7 @@ namespace CSharp
 
         void PrintIn10Minutes(string message)
         {
-            PrintIn10Minutes(() => message);
+            PrintIn10Minutes(() => message + DateTime.Now);
         }
 
         void PrintDefaultMessageIn10Minutes()
@@ -42,7 +42,7 @@ namespace CSharp
 
         public string Invoke()
         {
-            return _message;
+            return _message + DateTime.Now;
         }
     }
 }

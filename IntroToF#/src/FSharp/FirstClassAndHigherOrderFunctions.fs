@@ -3,7 +3,7 @@
     open System.Net
 
     let getFormattedWebPage url formatter = 
-        // ------------^ This is a higher order function because it takes a function as a paramater
+        // ---------------------^ This is a higher order function because it takes a function as a paramater
         let webClient = new WebClient()
         let html = webClient.DownloadString(url : string)
         formatter html
