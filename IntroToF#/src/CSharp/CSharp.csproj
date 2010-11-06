@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Closures.cs" />
+    <Compile Include="FunctionComposition.cs" />
     <Compile Include="PartialApplication.cs" />
     <Compile Include="Currying.cs" />
     <Compile Include="FirstClassAndHigherOrderFunctions.cs" />

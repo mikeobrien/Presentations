@@ -11,8 +11,6 @@
     someUser.Username <- "soemthingelse"
 
     someUser <- { Username = "anotheruser"; Password = "$3cr3t" }
-    
-    let someUser = { Username = "anotheruser"; Password = "$3cr3t" }
 
     // "But I want to change it, waaaaah!" No problem, create a new one.
 

@@ -16,6 +16,9 @@ namespace CSharp
             var result1 = add1(10, 5);
 
             // Calling a curried function, the first function returns a function which returns a result.
+            var firstFunction = add2(10);
+            var result = firstFunction(5);
+
             var result2 = add2(10)(5);
         }
     }

@@ -7,5 +7,12 @@ namespace CSharp
 {
     class FunctionComposition
     {
+        void Sample()
+        {
+            var result = new [] {2, 56, 94, 65}.
+                         Where(x => x > 10).
+                         Select(x => x * x).
+                         Sum();
+        }
     }
 }

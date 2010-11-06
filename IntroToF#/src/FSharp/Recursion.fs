@@ -33,4 +33,4 @@
         if List.Empty = l then acc
         else sum (acc + (List.head l)) (List.tail l)
 
-    let total = sum 0 [22; 6; 98; 11]
+    let total2 = sum 0 [22; 6; 98; 11]
